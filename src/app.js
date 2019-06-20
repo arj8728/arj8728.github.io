@@ -7,6 +7,8 @@ import './style.scss'
 
 
 import Hero from './components/Hero'
+import Profile from './components/Profile'
+
 
 
 class App extends React.Component {
@@ -17,6 +19,8 @@ class App extends React.Component {
       <Router>
         <main>
           <Hero />
+          <Profile />
+
         </main>
       </Router>
     )
