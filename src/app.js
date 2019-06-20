@@ -1,10 +1,24 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
+import { HashRouter as Router } from 'react-router-dom'
+import 'bulma'
+import './style.scss'
+
+
+import Hero from './components/Hero'
+
+
 class App extends React.Component {
+
+
   render() {
     return (
-      <h1>Arjun Modi Portfolio</h1>
+      <Router>
+        <main>
+          <Hero />
+        </main>
+      </Router>
     )
   }
 }
