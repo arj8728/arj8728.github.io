@@ -5,7 +5,7 @@ const Skills = () => {
     <section id="skills">
       <div className="container">
         <h2 className="title is-3 is-centered">Tech Stack</h2>
-        <p has-text-white>I am a Junior Software Engineer, below are my skills! I used to work as a scientist but developed an interest in software and computing. This led me to a software engineering course at General Assembly (GA). After I completed my course at GA I started  learning Java and Ruby on Codecademy </p>
+        <p>I am a Junior Software Engineer, below are my skills! I used to work as a scientist but developed an interest in software and computing. This led me to a software engineering course at General Assembly (GA). After I completed my course at GA I started  learning Java and Ruby on Codecademy. </p>
       </div>
 
       <div className="container">
@@ -33,7 +33,7 @@ const Skills = () => {
         <div className="logos">
           <img className="logo" src="./assets/java.png" />
           <img className="logo" src="./assets/ruby.png" />
-          <img className="tech-logo" src="./assets/bootstrap.png" />
+          <img className="logo" src="./assets/bootstrap.png" />
         </div>
 
         <div className="logos">
