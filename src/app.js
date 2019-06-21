@@ -7,20 +7,21 @@ import './style.scss'
 
 
 import Hero from './components/Hero'
-import Profile from './components/Profile'
+import Skills from './components/Skills'
+import Projects from './components/Projects'
+import Contact from './components/Contact'
 
 
 
 class App extends React.Component {
-
-
   render() {
     return (
       <Router>
         <main>
           <Hero />
-          <Profile />
-
+          <Skills />
+          <Projects />
+          <Contact />
         </main>
       </Router>
     )
