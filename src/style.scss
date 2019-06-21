@@ -28,7 +28,6 @@
 }
 
 
-
 #skills {
   height: 100vh;
   background: url('./assets/skills.jpg');
@@ -45,3 +44,21 @@ p {
   font-weight: bold;
 }
   }
+
+
+  #projects {
+    height: 100vh;
+    background: url('./assets/projectgold.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+
+  h2 {
+    color: white;
+  }
+  p {
+    color: white;
+    font-weight: bold;
+  }
+    }
