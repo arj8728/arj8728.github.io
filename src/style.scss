@@ -45,7 +45,6 @@ p {
 }
   }
 
-
   #projects {
     height: 100vh;
     background: url('./assets/projectgold.jpg');
@@ -98,4 +97,29 @@ p {
 
   .textBlur h3 {
   top: 60%
+}
+
+#contact {
+  height: 40vh;
+  background: url('./assets/contact.jpg');
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+
+h2 {
+  color: white;
+}
+p {
+  color: white;
+  font-weight: bold;
+}
+  }
+
+.footer {
+  background-color: #BD9974;
+  height: 20px;
+  font-weight: bold;
+  text-align: center;
+
 }
