@@ -11,16 +11,25 @@ const Projects = () => {
         <div className="columns is-multiline has-text-centered is-centered">
 
           <div className="column is-two-fifths">
-            <img className="snapshot" src="./assets/project4.jpg" />
+            <figure className="image textBlur">
+              <img className="snapshot" src="./assets/project4.jpg" />
+              <h2 className="title">Project Four</h2>
+            </figure>
           </div>
 
 
           <div className="column is-two-fifths">
-            <img className="snapshot" src="./assets/project3.jpg" />
+            <figure className="image textBlur">
+              <img className="snapshot" src="./assets/project3.jpg" />
+              <h2 className="title">Project Three</h2>
+            </figure>
           </div>
 
           <div className="column is-two-fifths">
-            <img className="snapshot" src="./assets/project2.jpg" />
+            <figure className="image textBlur">
+              <img className="snapshot" src="./assets/project2.jpg" />
+              <h2 className="title">Project Two</h2>
+            </figure>
           </div>
 
           <div className="column is-two-fifths">
