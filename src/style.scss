@@ -62,3 +62,35 @@ p {
     font-weight: bold;
   }
     }
+
+    .textBlur {
+      display: inline-block;
+      position: relative;
+      transition: .3s;
+    }
+
+    .textBlur img {
+      transition: .3s;
+      border-radius: 4px;
+    }
+
+
+    .textBlur:hover img {
+      filter: blur(8px) brightness(40%);
+      box-shadow: 0 0 16px red;
+    }
+
+    .textBlur :not(img) {
+      position: absolute;
+      z-index: 1;
+      top: 30%;
+      width: 100%;
+      text-align: center;
+      color: #fff;
+      opacity: 0;
+      transition: .3s;
+    }
+
+    .textBlur:hover :not(img) {
+      opacity: 1;
+    }
