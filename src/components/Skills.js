@@ -20,11 +20,11 @@ const Skills = () => {
           <img className="logo" src="./assets/mongodb.png" />
           <img className="logo" src="./assets/python.png" />
           <img className="logo" src="./assets/postgresql.png" />
-          <img className="logo" src="./assets/mysql.png" />
           <img className="logo" src="./assets/npm.png" />
           <img className="logo" src="./assets/git.png" />
           <img className="logo" src="./assets/github.png" />
           <img className="logo" src="./assets/heroku.png" />
+          <img className="logo" src="./assets/mysql.png" />
           <img className="logo" src="./assets/jquery.png" />
         </div>
 

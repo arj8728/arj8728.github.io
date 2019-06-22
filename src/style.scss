@@ -85,12 +85,17 @@ p {
       z-index: 1;
       top: 30%;
       width: 100%;
-      text-align: center;
-      color: #fff;
+      text-align: left;
+      color: #0000EE;
       opacity: 0;
       transition: .3s;
+      text-decoration: underline;
     }
 
     .textBlur:hover :not(img) {
       opacity: 1;
     }
+
+  .textBlur h3 {
+  top: 60%
+}
