@@ -100,7 +100,7 @@ p {
 }
 
 #contact {
-  height: 40vh;
+  height: 65vh;
   background: url('./assets/contact.jpg');
   background-position: center;
   background-size: cover;
@@ -116,10 +116,24 @@ p {
 }
   }
 
+footer.footer {
+  height: 20px;
+
+}
+
 .footer {
   background-color: #BD9974;
-  height: 20px;
   font-weight: bold;
   text-align: center;
+}
+
+
+nav.navbar {
+  background-color: black;
+}
+
+a.navbar-item {
+  color: white;
+  font-weight: bold;
 
 }
