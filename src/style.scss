@@ -148,7 +148,7 @@ nav.navbar {
 }
 
 a.navbar-item {
-  color: white;
+  color: red;
   font-weight: bold;
   font-family: 'Raleway', sans-serif;
 }
@@ -156,18 +156,18 @@ a.navbar-item {
 img.icon {
   height: 90px;
   width: 90px;
-  top: 60px;
-  bottom: 50px;
-  left: 400px;
+  bottom: -100px;
+  left: 410px;
   position: relative;
 }
 
 a.contactlink {
   position: relative;
   font-size: 30px;
-  color: black;
-  top: 40px;
-  left: 405px;
+  color: #0000EE;
+  bottom: -75px;
+  margin-left: 6px;
+  left: 410px;
   text-decoration: underline;
   font-family: 'Raleway', sans-serif;
 }
