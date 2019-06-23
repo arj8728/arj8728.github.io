@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
 
 #hero {
   height: 100vh;
@@ -15,6 +17,8 @@
     transform: translate(-50%, -50%);
     color: white;
     text-decoration: underline;
+    font-family: 'Raleway', sans-serif;
+
   }
   h2 {
     font-size: 40px;
@@ -24,6 +28,7 @@
     transform: translate(-50%, -50%);
     color: white;
     text-decoration: underline;
+    font-family: 'Raleway', sans-serif;
   }
 }
 
@@ -38,10 +43,14 @@
 
 h2 {
   color: white;
+  font-family: 'Raleway', sans-serif;
 }
 p {
   color: white;
   font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+
 }
   }
 
@@ -55,10 +64,13 @@ p {
 
   h2 {
     color: white;
+    font-family: 'Raleway', sans-serif;
   }
   p {
     color: white;
     font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
   }
     }
 
@@ -109,16 +121,19 @@ p {
 
 h2 {
   color: white;
+  font-family: 'Raleway', sans-serif;
 }
 p {
   color: white;
   font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
 }
   }
 
 footer.footer {
   height: 20px;
-
+  font-family: 'Raleway', sans-serif;
 }
 
 .footer {
@@ -129,25 +144,40 @@ footer.footer {
 
 nav.navbar {
   background-color: black;
+  font-family: 'Raleway', sans-serif;
 }
 
 a.navbar-item {
   color: white;
   font-weight: bold;
+  font-family: 'Raleway', sans-serif;
 }
 
 img.icon {
   height: 90px;
   width: 90px;
-  top: 40px;
-  bottom: 40px;
+  top: 60px;
+  bottom: 50px;
+  left: 400px;
   position: relative;
 }
 
 a.contactlink {
+  position: relative;
   font-size: 30px;
   color: black;
-  padding-left: 50px;
+  top: 40px;
+  left: 405px;
   text-decoration: underline;
+  font-family: 'Raleway', sans-serif;
+}
+
+a:hover {
+  color: red;
+  background-color: green;
+}
+
+.techtitle {
+  margin-top: 20px;
 
 }

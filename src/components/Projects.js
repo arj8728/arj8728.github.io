@@ -7,7 +7,7 @@ const Projects = () => {
     <section id="projects">
       <div className="container">
         <h2 className="title is-3 is-centered">Projects</h2>
-        <p className="title is-5 is-centered">These are the projects I have completed at GA, hover over the images to find out more!</p>
+        <p className="title is-5 is-centered"></p>
         <div className="columns is-multiline has-text-centered is-centered">
 
           <div className="column is-two-fifths">

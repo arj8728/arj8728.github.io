@@ -10,7 +10,7 @@ const Skills = () => {
 
       <div className="container">
 
-        <h2 className="title is-3 is-centered">My Tech stack:</h2>
+        <h2 className="title is-3 is-centered techtitle">My Tech stack:</h2>
         <div className="logos">
           <img className="logo" src="./assets/html5.png" />
           <img className="logo" src="./assets/css3.png" />
@@ -29,7 +29,7 @@ const Skills = () => {
         </div>
 
 
-        <h2 className="title is-3 is-centered">Currently learning:</h2>
+        <h2 className="title is-3 is-centered techtitle">Currently learning:</h2>
         <div className="logos">
           <img className="logo" src="./assets/java.png" />
           <img className="logo" src="./assets/ruby.png" />
@@ -37,7 +37,7 @@ const Skills = () => {
         </div>
 
         <div className="logos">
-          <h2 className="title is-3 is-centered"> Post GA Learning platform:</h2>
+          <h2 className="title is-3 is-centered techtitle"> Post GA Learning platform:</h2>
           <img className="logo" src="./assets/codecad.jpg" />
         </div>
 
