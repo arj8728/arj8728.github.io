@@ -127,7 +127,6 @@ footer.footer {
   text-align: center;
 }
 
-
 nav.navbar {
   background-color: black;
 }
@@ -135,5 +134,20 @@ nav.navbar {
 a.navbar-item {
   color: white;
   font-weight: bold;
+}
+
+img.icon {
+  height: 90px;
+  width: 90px;
+  top: 40px;
+  bottom: 40px;
+  position: relative;
+}
+
+a.contactlink {
+  font-size: 30px;
+  color: black;
+  padding-left: 50px;
+  text-decoration: underline;
 
 }
