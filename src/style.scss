@@ -34,8 +34,9 @@
 
 
 #skills {
-  height: 120vh;
+  height: 90vh;
   //background: url('./assets/skills.jpg');
+  background-color: #D8C3A5;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -44,27 +45,33 @@
 h2 {
   color: black;
   font-family: 'Raleway', sans-serif;
+  text-decoration: underline;
+  text-decoration-color: red;
 }
 p {
   color: black;
   font-weight: bold;
   font-family: 'Raleway', sans-serif;
   font-size: 20px;
-
 }
   }
 
+
+
   #projects {
     height: 100vh;
-    background: url('./assets/projectgold.jpg');
+    //background: url('./assets/projectgold.jpg');
+    background-color: #B1A296;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
     position: relative;
 
   h2 {
-    color: white;
+    color: black;
     font-family: 'Raleway', sans-serif;
+    text-decoration: underline;
+    text-decoration-color: red;
   }
   p {
     color: white;
@@ -87,7 +94,7 @@ p {
 
 
     .textBlur:hover img {
-      filter: blur(5px) brightness(50%);
+      filter: blur(5px) brightness(70%);
       box-shadow: 0 0 16px red;
     }
 
@@ -97,7 +104,7 @@ p {
       top: 30%;
       width: 100%;
       text-align: left;
-      color: #0000EE;
+      color: red;
       opacity: 0;
       transition: .3s;
       text-decoration: underline;
@@ -112,16 +119,19 @@ p {
 }
 
 #contact {
-  height: 65vh;
-  background: url('./assets/contact.jpg');
+  height: 50vh;
+  //background: url('./assets/contact.jpg');
+  background-color: #D8C3A5;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
   position: relative;
 
 h2 {
-  color: white;
+  color: black;
   font-family: 'Raleway', sans-serif;
+  text-decoration: underline;
+  text-decoration-color: red;
 }
 p {
   color: white;
@@ -174,7 +184,7 @@ a.contactlink {
 
 a:hover {
   color: red;
-  background-color: green;
+  background-color: black;
 }
 
 .techtitle {
