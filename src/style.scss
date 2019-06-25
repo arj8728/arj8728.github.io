@@ -34,8 +34,7 @@
 
 
 #skills {
-  height: 90vh;
-  //background: url('./assets/skills.jpg');
+  height: 100vh;
   background-color: #D8C3A5;
   background-position: center;
   background-size: cover;
@@ -56,11 +55,16 @@ p {
 }
   }
 
+div.name {
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+
+}
 
 
   #projects {
     height: 100vh;
-    //background: url('./assets/projectgold.jpg');
     background-color: #B1A296;
     background-position: center;
     background-size: cover;
@@ -119,8 +123,7 @@ p {
 }
 
 #contact {
-  height: 50vh;
-  //background: url('./assets/contact.jpg');
+  height: 70vh;
   background-color: #D8C3A5;
   background-position: center;
   background-size: cover;

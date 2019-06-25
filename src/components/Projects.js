@@ -6,6 +6,8 @@ const Projects = () => {
 
     <section id="projects">
       <div className="container">
+        <br/>
+
         <h2 className="title is-3 is-centered">Projects</h2>
         <p className="title is-5 is-centered"></p>
         <div className="columns is-multiline has-text-centered is-centered">

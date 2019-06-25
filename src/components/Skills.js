@@ -5,6 +5,7 @@ const Skills = () => {
     <section id="skills">
 
       <div className="container">
+        <br/>
 
         <h2 className="title is-3 is-centered">Skills</h2>
         <div className="columns">
@@ -34,7 +35,7 @@ const Skills = () => {
                 </div>
 
                 <div className="column is-one-third-mobile is-one-quarter-desktop">
-                  <img className="logo" src="./assets/nodejs.png" />
+                  <img className="logo" src="./assets/nodejs1.png" />
                   <div className="name">Node.js</div>
                 </div>
 
@@ -111,22 +112,20 @@ const Skills = () => {
             <div className="columns is-multiline is-mobile">
               <h2 className="title is-3 is-centered">About me:</h2>
               <p>
-                <br/>
               Having worked as a biomedical scientist for around 9 years I decided that I wanted a career change.
 
                 <br/>
                 <br/>
-              Throughout my career I have enjoyed using programs and software to solve various problems that I have encountered in scientific dissertations, to researching important clinical questions in cancer research. In my previous role I was analysing data and putting together reports based on relationships between cancer growth and biomarkers. This led me to gaining a deep interest in how data could be stored and visualised by using advanced computer programming languages.
+              Throughout my scientific career and in academia I have enjoyed using programs and software to solve complicated molecular biology problems and researching important clinical questions in biomedical science.  This led me to gaining a deep interest in how complex data could be stored and visualised by using advanced computer programming languages.
+
+                <br/>
+                <br/>
+                In March 2019 I decided to study Software Engineering at General Assembly (GA). I wanted to realise my goal of producing complex visual representations of data in the form of websites. My skills as a molecular biologist have greatly helped me throughout this intensive course. At GA I was able to apply my analytical and experimental experience into making websites and putting together solutions for complex JavaScript problems.
 
                 <br/>
                 <br/>
 
-                I came to GA to realise that goal of storing data and producing complex visual representations of this data in the form of websites. My skills as a molecular biologist have helped me in this course as I was able to apply my analytical and experimental experience into making websites and putting together solutions for complex JavaScript problems.
-
-                <br/>
-                <br/>
-
-                I hope to join this exciting software engineering field as soon as possible.
+                Having completed this course at GA in June 2019 I now hope to join the exciting software engineering field as soon as possible. Please feel free to contact me below regarding any software engineering opportunties.
 
               </p>
             </div>
