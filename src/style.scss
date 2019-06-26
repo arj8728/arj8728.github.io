@@ -15,8 +15,9 @@
     top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
+    color: black;
     text-decoration: underline;
+    text-decoration-color: red;
     font-family: 'Raleway', sans-serif;
 
   }
@@ -26,15 +27,16 @@
     top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
+    color: black;
     text-decoration: underline;
+    text-decoration-color: red;
     font-family: 'Raleway', sans-serif;
   }
 }
 
 
 #skills {
-  height: 100vh;
+  height: 110vh;
   background-color: #D8C3A5;
   background-position: center;
   background-size: cover;
@@ -59,12 +61,11 @@ div.name {
   color: black;
   font-weight: bold;
   font-size: 15px;
-
 }
 
 
   #projects {
-    height: 100vh;
+    height: 150vh;
     background-color: #B1A296;
     background-position: center;
     background-size: cover;
@@ -76,12 +77,6 @@ div.name {
     font-family: 'Raleway', sans-serif;
     text-decoration: underline;
     text-decoration-color: red;
-  }
-  p {
-    color: white;
-    font-weight: bold;
-    font-family: 'Raleway', sans-serif;
-    font-size: 20px;
   }
     }
 
@@ -96,6 +91,21 @@ div.name {
       border-radius: 4px;
     }
 
+    div.nameproject {
+      font-weight: bold;
+      text-align: center;
+      color: black;
+      border: 2px solid black;
+      border-top-style: none;
+      border-radius: 3px;
+
+    p {
+      margin: 5px;
+      padding: 2px;
+
+    }
+
+    }
 
     .textBlur:hover img {
       filter: blur(5px) brightness(70%);

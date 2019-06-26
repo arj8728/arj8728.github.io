@@ -12,7 +12,7 @@ const Skills = () => {
 
 
           <div className="columns is-multiline is-mobile">
-            <div className="column is-full-mobile is-half-desktop">
+            <div className="column is-full-mobile is-half-desktop skilled">
               <div className="columns is-multiline is-mobile">
                 <div className="column is-one-third-mobile is-one-quarter-desktop">
                   <img className="logo" src="./assets/html5.png" />
@@ -89,7 +89,7 @@ const Skills = () => {
 
 
               <h2 className="title is-3 is-centered techtitle">Currently learning:</h2>
-              <div className="columns is-multiline  is-mobile">
+              <div className="columns is-multiline is-mobile">
                 <div className="column is-one-third-mobile is-one-fifth-desktop">
                   <img className="logo" src="./assets/java.png" />
                   <div className="name">Java</div>
@@ -107,6 +107,7 @@ const Skills = () => {
               </div>
             </div>
           </div>
+
 
           <div className="column is-full-mobile is-half-desktop">
             <div className="columns is-multiline is-mobile">
@@ -126,11 +127,12 @@ const Skills = () => {
                 <br/>
 
                 Having completed this course at GA in June 2019 I now hope to join the exciting software engineering field as soon as possible. Please feel free to contact me below regarding any software engineering opportunties.
-
               </p>
             </div>
-
           </div>
+
+
+
         </div>
 
       </div>
