@@ -6,6 +6,7 @@ const Contact = () => {
 
     <section id="contact">
       <br/>
+
       <div className="container">
         <h2 className="title is-3 is-centered">Contact</h2>
 

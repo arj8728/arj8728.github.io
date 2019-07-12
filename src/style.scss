@@ -3,7 +3,8 @@
 
 #hero {
   height: 100vh;
-  background: url('./assets/heroedit.jpg');
+  background: url('./assets/lab.jpg');
+  background-color: #D8C3A5;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -12,24 +13,23 @@
   h1 {
     font-size: 50px;
     position: absolute;
-    top: 20%;
-    left: 50%;
+    top: 15%;
+    left: 14%;
     transform: translate(-50%, -50%);
-    color: black;
+    color: #FF4500;
     text-decoration: underline;
-    text-decoration-color: red;
+    text-decoration-color: black;
     font-family: 'Raleway', sans-serif;
-
   }
   h2 {
     font-size: 40px;
     position: absolute;
-    top: 30%;
-    left: 50%;
+    top: 24%;
+    left: 14%;
     transform: translate(-50%, -50%);
-    color: black;
+    color: #FF4500;
     text-decoration: underline;
-    text-decoration-color: red;
+    text-decoration-color: black;
     font-family: 'Raleway', sans-serif;
   }
 }
@@ -37,7 +37,7 @@
 
 #skills {
   height: 110vh;
-  background-color: #D8C3A5;
+  background-color: #c9af98;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -66,7 +66,7 @@ div.name {
 
   #projects {
     height: 170vh;
-    background-color: #B1A296;
+    background-color: #8e8e90;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -134,14 +134,14 @@ div.name {
 
 #contact {
   height: 70vh;
-  background-color: #D8C3A5;
+  background-color: #393939 ;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
   position: relative;
 
 h2 {
-  color: black;
+  color: #FF5A09 ;
   font-family: 'Raleway', sans-serif;
   text-decoration: underline;
   text-decoration-color: red;
@@ -187,7 +187,7 @@ img.icon {
 a.contactlink {
   position: relative;
   font-size: 30px;
-  color: #0000EE;
+  color: #FF5A09 ;
   bottom: 50px;
   margin-left: 10px;
   left: 410px;

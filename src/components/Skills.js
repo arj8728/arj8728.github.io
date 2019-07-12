@@ -113,20 +113,20 @@ const Skills = () => {
             <div className="columns is-multiline is-mobile">
               <h2 className="title is-3 is-centered">About me:</h2>
               <p>
-              Having worked as a biomedical scientist for around 9 years I decided that I wanted a career change.
+              Having worked as a biomedical scientist in cancer diagnostics for around 9 years I decided that I wanted a career change and a new challenge!
 
                 <br/>
                 <br/>
-              Throughout my scientific career and in academia I have enjoyed using programs and software to solve complicated molecular biology problems and researching important clinical questions in biomedical science.  This led me to gaining a deep interest in how complex data could be stored and visualised by using advanced computer programming languages.
+              Throughout my scientific career I have enjoyed solving complicated molecular biology problems and researching important clinical questions.
 
                 <br/>
                 <br/>
-                In March 2019 I decided to study Software Engineering at General Assembly (GA). I wanted to realise my goal of producing complex visual representations of data in the form of websites. My skills as a molecular biologist have greatly helped me throughout this intensive course. At GA I was able to apply my analytical and experimental experience into making websites and putting together solutions for complex JavaScript problems.
+                I became interested in JavaScript and ReactJS. It became exciting watching various Youtube videos, completing tutorials, reading articles on medium and talking to programmers at meetups in London.
 
                 <br/>
                 <br/>
+                I enjoyed my course in software engineering at General Assembly. It was fun putting together 4 major projects. See below for more details on these!
 
-                Having completed this course at GA in June 2019 I now hope to join the exciting software engineering field as soon as possible. Please feel free to contact me below regarding any software engineering opportunties.
               </p>
             </div>
           </div>
