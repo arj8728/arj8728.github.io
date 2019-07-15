@@ -1,56 +1,52 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
 
 
 #hero {
   height: 100vh;
-  background: url('./assets/lab.jpg');
-  background-color: #D8C3A5;
+  background-color: #1d1e22;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
   position: relative;
 
   h1 {
-    font-size: 50px;
+    font-size: 70px;
     position: absolute;
-    top: 15%;
-    left: 14%;
+    top: 20%;
+    left: 50%;
     transform: translate(-50%, -50%);
-    color: #FF4500;
-    text-decoration: underline;
-    text-decoration-color: black;
-    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-family: 'Oswald', sans-serif;
   }
   h2 {
     font-size: 40px;
     position: absolute;
-    top: 24%;
-    left: 14%;
+    top: 30%;
+    left: 50%;
     transform: translate(-50%, -50%);
-    color: #FF4500;
-    text-decoration: underline;
-    text-decoration-color: black;
-    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-family: 'Oswald', sans-serif;
   }
 }
 
 
 #skills {
   height: 110vh;
-  background-color: #c9af98;
+  background-color: #1d1e22;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
   position: relative;
 
 h2 {
-  color: black;
+  color: white;
   font-family: 'Raleway', sans-serif;
   text-decoration: underline;
-  text-decoration-color: red;
+  text-decoration-color: white;
 }
 p {
-  color: black;
+  color: white;
   font-weight: bold;
   font-family: 'Raleway', sans-serif;
   font-size: 20px;
@@ -58,7 +54,7 @@ p {
   }
 
 div.name {
-  color: black;
+  color: white;
   font-weight: bold;
   font-size: 15px;
 }
@@ -66,17 +62,17 @@ div.name {
 
   #projects {
     height: 170vh;
-    background-color: #8e8e90;
+    background-color: #1d1e22;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
     position: relative;
 
   h2 {
-    color: black;
+    color: white;
     font-family: 'Raleway', sans-serif;
     text-decoration: underline;
-    text-decoration-color: red;
+    text-decoration-color: white;
   }
     }
 
@@ -94,17 +90,15 @@ div.name {
     div.nameproject {
       font-weight: bold;
       text-align: center;
-      color: black;
-      border: 2px solid black;
+      color: white;
+      border: 2px solid white;
       border-top-style: none;
       border-radius: 3px;
 
     p {
       margin: 5px;
       padding: 2px;
-
     }
-
     }
 
     .textBlur:hover img {
@@ -134,17 +128,17 @@ div.name {
 
 #contact {
   height: 70vh;
-  background-color: #393939 ;
+  background-color: #1d1e22;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
   position: relative;
 
 h2 {
-  color: #FF5A09 ;
+  color: white ;
   font-family: 'Raleway', sans-serif;
   text-decoration: underline;
-  text-decoration-color: red;
+  text-decoration-color: white;
 }
 p {
   color: white;
@@ -157,10 +151,11 @@ p {
 footer.footer {
   height: 20px;
   font-family: 'Raleway', sans-serif;
+  color: white;
 }
 
 .footer {
-  background-color: #BD9974;
+  background-color: #1d1e22;
   font-weight: bold;
   text-align: center;
 }
@@ -171,7 +166,7 @@ nav.navbar {
 }
 
 a.navbar-item {
-  color: red;
+  color: white;
   font-weight: bold;
   font-family: 'Raleway', sans-serif;
 }
@@ -187,7 +182,7 @@ img.icon {
 a.contactlink {
   position: relative;
   font-size: 30px;
-  color: #FF5A09 ;
+  color: white ;
   bottom: 50px;
   margin-left: 10px;
   left: 410px;
@@ -204,3 +199,9 @@ a:hover {
 .techtitle {
   margin-top: 20px;
 }
+
+hr {
+    background-color: white;
+      display: block;
+      height: 0.1px;
+      margin: 0.4px;}

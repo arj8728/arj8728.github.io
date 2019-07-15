@@ -18,10 +18,15 @@ class App extends React.Component {
 
       <main>
         <Navbar />
+        <hr />
         <Hero />
+        <hr />
         <Skills />
+        <hr />
         <Projects />
+        <hr />
         <Contact />
+        <hr />
       </main>
 
     )

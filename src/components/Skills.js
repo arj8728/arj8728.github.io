@@ -12,7 +12,8 @@ const Skills = () => {
 
 
           <div className="columns is-multiline is-mobile">
-            <div className="column is-full-mobile is-half-desktop skilled">
+            <div className="column is-full-mobile is-half-desktop">
+
               <div className="columns is-multiline is-mobile">
                 <div className="column is-one-third-mobile is-one-quarter-desktop">
                   <img className="logo" src="./assets/html5.png" />
@@ -29,6 +30,7 @@ const Skills = () => {
                   <div className="name">JavaScript</div>
                 </div>
 
+
                 <div className="column is-one-third-mobile is-one-quarter-desktop">
                   <img className="logo" src="./assets/react.png" />
                   <div className="name">ReactJS</div>
@@ -43,6 +45,9 @@ const Skills = () => {
                   <img className="logo" src="./assets/mongodb.png" />
                   <div className="name">MongoDB</div>
                 </div>
+
+
+
 
                 <div className="column is-one-third-mobile is-one-quarter-desktop">
                   <img className="logo" src="./assets/python.png" />
@@ -70,6 +75,7 @@ const Skills = () => {
                   <div className="name">GitHub</div>
                 </div>
 
+
                 <div className="column is-one-third-mobile is-one-quarter-desktop">
                   <img className="logo" src="./assets/heroku.png" />
                   <div className="name">Heroku</div>
@@ -90,6 +96,7 @@ const Skills = () => {
 
               <h2 className="title is-3 is-centered techtitle">Currently learning:</h2>
               <div className="columns is-multiline is-mobile">
+
                 <div className="column is-one-third-mobile is-one-fifth-desktop">
                   <img className="logo" src="./assets/java.png" />
                   <div className="name">Java</div>
