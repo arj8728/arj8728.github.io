@@ -7,7 +7,7 @@ const Skills = () => {
       <div className="container">
         <br/>
 
-        <h2 className="title is-3 is-centered">Skills</h2>
+        <h2 className="title is-3 is-centered">Tech Skills</h2>
         <div className="columns">
 
 
